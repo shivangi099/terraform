@@ -1,6 +1,6 @@
 cidr_block_vpc ="10.0.0.0/16"
 instance_tenancy = "default"
-Name_vpc = "murali-vpc"
+Name_vpc = "shivangi-vpc"
 cidr_block_subnet = "10.0.1.0/24"
 availability_zone_pub_subnet = "us-east-1a"
 
@@ -39,13 +39,13 @@ NAT_gateway Name = "shivangi-Nat-Gateway"
 # instacne in public subnet
 ami = "ami-020cba7c55df1f615"             
 instance_type = "t2.small"
-key_name = "murali-pair-2"
+key_name = "shivangi_key"
 Name = "shivangi-server-1"
 
 # instacne in private subnet
 ami = "ami-0a7d80731ae1b2435"                         
 instance_type = "t2.small"
-key_name = "murali-pair-2"
+key_name = "shivangi_key"
 Name = "shivangi-server-2"
   
 

@@ -35,7 +35,7 @@ variable "cidr_block_pvt_subnet" {
 
 variable "availability_zone_pvt_subnet" {
   description = "pvt_subnet availability zone"
-
+}
 variable "Name_pvt_subnet" {
   description = "pvt_subnet name"
 }

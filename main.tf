@@ -113,7 +113,7 @@ resource "aws_route_table_association" "b" {
 resource "aws_instance" "public_instance" {
   ami = "ami-020cba7c55df1f615"              # Replace with ur region ami id
   instance_type = "t2.small"
-  key_name = "murali-pair-2"
+  key_name = "shivangi_key"
   subnet_id = aws_subnet.public.id
   associate_public_ip_address = true
   
@@ -126,7 +126,7 @@ resource "aws_instance" "public_instance" {
 resource "aws_instance" "private_instance" {
   ami = "ami-0a7d80731ae1b2435"          # Replace with ur region ami id
   instance_type = "t2.small"
-  key_name = "murali-pair-2"
+  key_name = "shivangi_key"
   subnet_id = aws_subnet.private.id
   associate_public_ip_address = false
   
